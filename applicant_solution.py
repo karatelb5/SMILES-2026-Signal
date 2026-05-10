@@ -32,7 +32,7 @@ def your_canceller(tx_n, rx):
         0.75 * np.exp(1j * 0.40),
         0.70 * np.exp(1j * 0.10),
         0.95 * np.exp(1j * 0.15),
-        0.65 * np.exp(1j * 0.40),
+        0.8 * np.exp(1j * 0.40),
     ])
     
     external = np.zeros_like(rx)
